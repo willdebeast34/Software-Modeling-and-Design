@@ -18,6 +18,10 @@ public class Finder {
         return max;
     }
 
+    public static void main(String[] args) {
+        System.out.println("abc");
+    }
+
     static Integer findMin(int[] intArray){
         if (intArray == null)
             return null;
